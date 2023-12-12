@@ -35,7 +35,7 @@
     <div class="container">
       <div class="row">
         <div class="col">
-      <h1><a href="index.html">MOHD FITRI BIN MANSOR</a></h1>
+      <h1><a href="index.html">MOHD FITRI</a></h1>
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -76,7 +76,7 @@
 
       <div class="row">
         <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/me.PNG" class="img-fluid" alt="">
+          <img src="assets/img/myIMG.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
           
@@ -88,12 +88,23 @@
             <div class="col-lg-6">
               <ul>
                 <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+60 11-62316682</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Kota Kinabalu, Sabah</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Puchong, Selangor</span></li>
               </ul>
             </div>
             <div class="col-lg-6">
               <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>23</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span id="age"></span></li>
+                <script>
+                  // Get the birth year
+                  var birthYear = 1999;
+          
+                  // Calculate the age
+                  var currentYear = new Date().getFullYear();
+                  var age = currentYear - birthYear;
+          
+                  // Display the age in the specified span
+                  document.getElementById('age').textContent = age;
+              </script>
                 <li><i class="bi bi-chevron-right"></i> <strong>Highest Education:</strong> <span>Diploma</span></li>
                 <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>mohdfitri1017@gmail.com</span></li>
               </ul>
@@ -106,9 +117,7 @@
     </div><!-- End About Me -->
 
     
-
-    <!-- ======= Skills  ======= 
-    <div class="skills container">
+    <!-- <div class="skills container">
 
       <div class="section-title">
         <h2>Skills</h2>
@@ -168,13 +177,13 @@
 
       </div>
 
-    </div> End Skills -->
+    </div>  -->
 
 
     <div class="interests container">
 
       <div class="section-title">
-        <h2>Skills and Programming Language</h2>
+        <h2>Programming Language</h2>
       </div>
 
       <div class="row">
@@ -193,7 +202,7 @@
         <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
           <div class="icon-box">
             
-            <h3>PHP</h3>
+            <h3>PHP/Laravel</h3>
           </div>
         </div>
         <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
@@ -202,13 +211,7 @@
             <h3>JAVA</h3>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-
-            <h3>C#</h3>
-          </div>
-        </div>
-
+  
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
 
@@ -216,19 +219,6 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-
-            <h3>PC Troubleshoot</h3>
-          </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-
-            <h3>Mobile Phone Repair</h3>
-          </div>
-        </div>
 
         <div class="col-lg-3 col-md-4 mt-4">
           <div class="icon-box">
@@ -270,7 +260,7 @@
               using python and php.</em></p>
             <p>
             <ul>
-              <li>Kota Kinabalu, Sabah</li>
+              <li>Puchong, Selangor</li>
               <li>+60 11-62316682</li>
               <li>mohdfitri1017@gmail.com</li>
             </ul>
@@ -287,9 +277,23 @@
         </div>
         <div class="col-lg-6">
           <h3 class="resume-title">Professional Experience</h3>
+
+          <div class="resume-item">
+            <h4>Software Developer</h4>
+            <h5>July 2023 - Present</h5>
+            <p><em>Jant Marketing Sdn Bhd (JANTZEN), Puchong, Selangor </em></p>
+            <p>
+            <ul>
+              <li>Developed websites for clients using wordpress including the SEO setup and Google Analytics</li>
+              <li>Developed E-form system for company use using php/laravel as a backend </li>
+              <li>Developed sponsorship CRM system for company use using php/laravel as a backend</li>
+            </ul>
+            </p>
+          </div>
+
           <div class="resume-item">
             <h4>Technical Support</h4>
-            <h5>Aug 2022 - Present</h5>
+            <h5>Aug 2022 - June 2023</h5>
             <p><em>TFP Solutions Berhad, Kota Kinabalu, Sabah </em></p>
             <p>
             <ul>
@@ -301,6 +305,7 @@
             </ul>
             </p>
           </div>
+
           <div class="resume-item">
             <h4>MIS Support Engineer</h4>
             <h5>Jan 2022 - June 2022 (6 months)</h5>
@@ -316,18 +321,6 @@
             </p>
           </div>
 
-          <div class="resume-item">
-            <h4>Technician (Internship)</h4>
-            <h5>Dec 2019 - Apr 2020 (5 months)</h5>
-            <p><em>Dynagrid Sdn. Bhd. , Kuantan, Pahang</em></p>
-            <p>
-            <ul>
-              <li>Ensure the installed air conditioner are serviced regularly</li>
-              <li>Installed commercial air conditioner at the resort</li>
-              <li>Performed basic wiring for the air conditioner</li>
-            </ul>
-            </p>
-          </div>
         </div>
       </div>
 
@@ -347,17 +340,21 @@
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-simpfy">Simpfy</li>
-            <li data-filter=".filter-vue">Vue-CRUD</li>
+            <!-- <li data-filter=".filter-simpfy">Simpfy</li> -->
+            <li data-filter=".filter-vue">E-form</li>
             <li data-filter=".filter-fed">FedBorong</li>
-            <li data-filter=".filter-arcade">Arcade</li>
+            <li data-filter=".filter-arcade">Sponsorship CRM</li>
+            <li data-filter=".filter-lashility">Lashility</li>
+            <li data-filter=".filter-thehairtric">thehairTRIC</li>
+            <li data-filter=".filter-jantzen">Jantzen</li>
+            <li data-filter=".filter-almas">Al-Mas</li>
           </ul>
         </div>
       </div>
 
       <div class="row portfolio-container">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-simpfy">
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-simpfy">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/simpfy-1.PNG" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -369,9 +366,9 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-simpfy">
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-simpfy">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/simpfy-2.PNG" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -383,9 +380,9 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-simpfy">
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-simpfy">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/simpfy-3.PNG" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -397,9 +394,9 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-simpfy">
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-simpfy">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/simpfy-4.PNG" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -411,9 +408,9 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-simpfy">
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-simpfy">
           <div class="portfolio-wrap">
             <img src="assets/img/portfolio/simpfy-5.PNG" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -425,16 +422,16 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/vue-crud-1.PNG" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/eform-portfolio.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Vue-CRUD</h4>
-              <p><a href="https://website-f.github.io/vue-crud/" target="_blank">Go to the website</a></p>
+              <h4>E-form</h4>
+              
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/vue-crud-1.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/eform-portfolio.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                 
               </div>
             </div>
@@ -443,12 +440,96 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/vue-crud-2.PNG" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/eform-portfolio1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Vue-CRUD</h4>
-              <p><a href="https://website-f.github.io/vue-crud/" target="_blank">Go to the website</a></p>
+              <h4>E-form</h4>
+              
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/vue-crud-2.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/eform-portfolio1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/eform-portfolio2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>E-form</h4>
+              
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/eform-portfolio2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/eform-portfolio3.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>E-form</h4>
+              
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/eform-portfolio3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/eform-portfolio4.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>E-form</h4>
+              
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/eform-portfolio4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/eform-portfolio5.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>E-form</h4>
+              
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/eform-portfolio5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/eform-portfolio6.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>E-form</h4>
+              
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/eform-portfolio6.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-vue">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/eform-portfolio7.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>E-form</h4>
+              
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/eform-portfolio7.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                 
               </div>
             </div>
@@ -527,12 +608,12 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-arcade">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/arcade-1.PNG" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/sponsorship-portfolio.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>FedBorong</h4>
-              <p><a href="https://website-f.github.io/arcade" target="_blank">Go to the website</a></p>
+              <h4>Sponsorship CRM</h4>
+              
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/arcade-1.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/sponsorship-portfolio.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                 
               </div>
             </div>
@@ -541,17 +622,256 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-arcade">
           <div class="portfolio-wrap">
-            <img src="assets/img/portfolio/arcade-2.PNG" class="img-fluid" alt="">
+            <img src="assets/img/portfolio/sponsorship-portfolio1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>FedBorong</h4>
-              <p><a href="https://website-f.github.io/arcade" target="_blank">Go to the website</a></p>
+              <h4>Sponsorship CRM</h4>
+              
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/arcade-2.PNG" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/sponsorship-portfolio1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
                 
               </div>
             </div>
           </div>
         </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-arcade">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/sponsorship-portfolio2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Sponsorship CRM</h4>
+              
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/sponsorship-portfolio2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-arcade">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/sponsorship-portfolio3.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Sponsorship CRM</h4>
+              
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/sponsorship-portfolio3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-arcade">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/sponsorship-portfolio4.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Sponsorship CRM</h4>
+              
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/sponsorship-portfolio4.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-arcade">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/sponsorship-portfolio5.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Sponsorship CRM</h4>
+              
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/sponsorship-portfolio5.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-lashility">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/lashility-portfolio.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Lashility</h4>
+              <p><a href="https://lashility.com/" target="_blank">Go to the website</a></p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/lashility-portfolio.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-lashility">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/lashility-portfolio1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Lashility</h4>
+              <p><a href="https://lashility.com/" target="_blank">Go to the website</a></p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/lashility-portfolio1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-lashility">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/lashility-portfolio2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Lashility</h4>
+              <p><a href="https://lashility.com/" target="_blank">Go to the website</a></p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/lashility-portfolio2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-thehairtric">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/thehairtric-portfolio.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>thehairTRIC</h4>
+              <p><a href="https://thehairtric.com/" target="_blank">Go to the website</a></p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/thehairtric-portfolio.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-thehairtric">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/thehairtric-portfolio1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>thehairTRIC</h4>
+              <p><a href="https://thehairtric.com/" target="_blank">Go to the website</a></p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/thehairtric-portfolio1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-thehairtric">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/thehairtric-portfolio2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>thehairTRIC</h4>
+              <p><a href="https://thehairtric.com/" target="_blank">Go to the website</a></p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/thehairtric-portfolio2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-thehairtric">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/thehairtric-portfolio3.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>thehairTRIC</h4>
+              <p><a href="https://thehairtric.com/" target="_blank">Go to the website</a></p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/thehairtric-portfolio3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-jantzen">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/jantzen-portfolio.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Jantzen</h4>
+              <p><a href="https://www.jantzen.com.my/" target="_blank">Go to the website</a></p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/jantzen-portfolio.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-jantzen">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/jantzen-portfolio1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Jantzen</h4>
+              <p><a href="https://www.jantzen.com.my/" target="_blank">Go to the website</a></p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/jantzen-portfolio1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-jantzen">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/jantzen-portfolio2.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Jantzen</h4>
+              <p><a href="https://www.jantzen.com.my/" target="_blank">Go to the website</a></p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/jantzen-portfolio2.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-jantzen">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/jantzen-portfolio3.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Jantzen</h4>
+              <p><a href="https://www.jantzen.com.my/" target="_blank">Go to the website</a></p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/jantzen-portfolio3.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-almas">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/almas-portfolio.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Al-Mas</h4>
+              <p><a href="https://almasmalaysia.com/" target="_blank">Go to the website</a></p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/almas-portfolio.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-almas">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/almas-portfolio1.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Al-Mas</h4>
+              <p><a href="https://almasmalaysia.com/" target="_blank">Go to the website</a></p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/almas-portfolio1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
 
 
 
@@ -575,7 +895,7 @@
           <div class="info-box">
             <i class="bx bx-map"></i>
             <h3>My Address</h3>
-            <p>Kota Kinabalu, Sabah</p>
+            <p>Puchong, Selangor</p>
           </div>
         </div>
 
